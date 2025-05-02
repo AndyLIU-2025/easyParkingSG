@@ -1,12 +1,33 @@
-# React + Vite
+# EasyCarpark-SG
+Find the parking slot in Singapore easily
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Development
 
-Currently, two official plugins are available:
+To setup the app for development on your local machine, please follow the instructions below:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repo to your machine
 
-## Expanding the ESLint configuration
+```
+git clone  https://github.com/AndyLIU-2025/easyParkingSG
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Install necessary npm packages，leaflet is used to generate Map
+
+```
+npm install leaflet
+
+```
+
+3. about leaflet
+ 
+https://leafletjs.com/
+
+3. Start the development environment
+ 
+
+```
+cd easyparking
+npm install
+npm install leaflet
+npm run dev
+```
