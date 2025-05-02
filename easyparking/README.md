@@ -1,4 +1,4 @@
-# EasyCarpark-SG
+# EasyCarparkSG
 Find the parking slot in Singapore easily
 
 ## Development
